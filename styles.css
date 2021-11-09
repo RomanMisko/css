@@ -1,0 +1,212 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+ body {
+    background-color: #f1f1f1;
+    color: #291111;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+} 
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  */
+a {
+    color:rgb(17, 17, 17);
+    text-decoration:none ;
+    display: flex;
+    
+}
+a:hover {
+    text-decoration:underline;
+    color: rgb(218, 38, 158);
+}
+a:active{
+    color: rgb(48, 48, 206);
+   
+}
+a:visited{
+    color: darkgray;
+}
+
+.avatar {
+    width: 250px; 
+    height:min-content;
+    border-radius: 25px;
+    box-shadow: 4px 4px 20px 2px black;
+}
+.info p {
+    color: cornflowerblue;
+    margin: 0px;
+    font-style: italic;
+    font-weight: bold;
+    /* text-decoration: underline; підкреслений текст*/ 
+    /* text-transform: capitalize; кожне слово з Великої букви */
+    /* text-transform: lowercase; кожне слово з маленької букви*/
+    /* letter-spacing: 5px;  */  /* відступ між буквами */
+    /* word-spacing: 30px; відступ між словами*/
+  }  
+/* Box Model */
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+/* .social {
+  background: green;
+  padding: 15px;
+  border: 5px solid red;
+  margin: 5px;
+  border-bottom-style: dotted;
+  border-top-width: 15px;
+  border-right-color: royalblue;
+
+} */ 
+/* .box-model > div {
+   background: #000;
+   height: 200px;
+   width: 25%;
+   float: left;
+   border: 4px solid red;
+   box-sizing: border-box; робить одинаковий розмір коробочок
+} */
+
+.bg-yellow {
+    background: #fff9dc;
+}
+.bg-green {
+    background: #e5ffe7;
+}
+.bg-red {
+    background: #ffe5e5;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+} 
+.info-text{
+    margin-left: 40px;
+    
+}
+.info-text h4{
+    margin-bottom: 10px;
+}
+.info{
+    margin-bottom: 40px;
+    display: flex;
+}
+@media (max-width: 700px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+
+}
+
+
+.card h2{
+    margin-bottom: 10px;
+}
+.list{
+    padding: 0 20px;
+    /* list-style: none; */
+}
+.list li{
+    color: #86898f;
+    margin-bottom: 10px;
+}
+.table{
+    width: 100%;
+}
+.table td{
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(3), 
+.table td:nth-child(2)  { 
+    color: #86898f;
+}
+/* .table tr:nth-child(even) {
+    background: red;
+} 
+
+.table tr:nth-child(odd) {
+    background: green;
+} */
+.link-list{
+    list-style: none;
+    padding: 0;
+}
+.link-list li{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+.contact h2{
+    text-align: center;
+}
+.form-group label{
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+    font-family: cursive;
+   
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent; 
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline:none;
+    text-decoration-line:underline;
+    font-size:16px;
+    /* text-transform:capitalize; */
+    font-weight:bold;
+    /* text-shadow: 4px 4px 5px red; */
+    
+}
+.row{
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .form-group {
+    width: 50%;
+}
+.btn{
+    background: #000;
+    padding: 15px 20px ;
+    color: ivory;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background: lawngreen;
+    color: #111;
+    opacity: 0.9;
+}
+/* position */
+/* .position{
+   position: relative;
+   bottom: 0;
+   border: 4px solid black;
+   margin-top: 40px;
+   padding: 20px;
+   height: 300px;
+}
+.box{
+    position: fixed;
+    top: 0px; 
+    left: 0px;  
+    border-radius: 0px;
+    right: 0px;
+    width: 100%;
+    height: 50px;
+    background: lightcoral;
+} */
